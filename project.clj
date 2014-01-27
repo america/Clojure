@@ -17,7 +17,10 @@
                  [com.novemberain/monger "1.4.2"]
                  ]
   :profiles {:dev {:dependencies [
-                                  [com.cemerick/pomegranate "0.0.13"]]}}
+                                  [com.cemerick/pomegranate "0.0.13"]
+                                  [midje "1.5.1"]
+                                  ]
+                   }}
   :plugins [[lein-scalac "0.1.0"]]
   :scala-source-path "src/scala"
   :prep-tasks ["scalac" "javac"]
