@@ -14,6 +14,7 @@
                  [clj-ldap "0.0.4"]
                  [net.mikera/clisk "0.7.0"]
                  [incanter "1.3.0"]
+                 [com.novemberain/monger "1.4.2"]
                  ]
   :profiles {:dev {:dependencies [
                                   [com.cemerick/pomegranate "0.0.13"]]}}
